@@ -94,5 +94,5 @@ db.books.createIndex({ title: 1 })
 // - Create a compound index on `author` and `published_year`
 db.books.createIndex({ author: 1, published_year: 1 })
 
-- Use the `explain()` method to demonstrate the performance improvement with your indexes
+// - Use the `explain()` method to demonstrate the performance improvement with your indexes
 db.books.find({ title: "1984" }).explain("executionStats")
