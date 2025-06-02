@@ -45,3 +45,7 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+SET UP INSTRUCTIONS
+Use 'npm install mongodb' to install the necessary nodejs Driver.
+Then run "node insert_books.js" on your terminal to check connection(make sure you are in your project folder)
